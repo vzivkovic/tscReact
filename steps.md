@@ -7,4 +7,5 @@
 5. Add `"watch": "tsc -w"`
 6. Run `yarn add -D nodemon`
 7. Run `yarn add @mikro-orm/cli @mikro-orm/cor @mikro-orm/migrations @mikro-orm/postgresql pg`
-8. 
+8. Run `yarn add express apollo-server-express graphql type-graphql`
+9. Run `yarn add -D @types/express`
