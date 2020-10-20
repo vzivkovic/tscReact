@@ -9,8 +9,8 @@ export class Post {
   @PrimaryKey()
   id!: number;
 
-  @Field(() => String )
-  @Property({ type: "date" })
+  @Field(() => String ) //ql field
+  @Property({ type: "date" }) // db field
   createdAt = new Date();
 
   @Field(() => String )
